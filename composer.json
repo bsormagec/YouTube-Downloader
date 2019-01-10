@@ -9,6 +9,12 @@
   "type": "library",
   
   "homepage": "https://github.com/sormagec/YouTube-Downloader",
+	 "authors": [
+        {
+            "name": "Burak Sormageç",
+            "email": "burak@sormagec.com"
+        }
+    ]
 
 	"license": "AGPL-3.0",
 
