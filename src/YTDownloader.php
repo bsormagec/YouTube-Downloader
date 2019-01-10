@@ -197,7 +197,7 @@ class YTDownloader {
 
             $vInfo['Duration'] = $videoData['length_seconds'];
 
-            $vInfo['Rating'] = $videoData['avg_rating'];
+            $vInfo['Rating'] = array_key_exists('avg_rating',$videoData) ? $videoData['avg_rating'] : null;
 
         }
 
