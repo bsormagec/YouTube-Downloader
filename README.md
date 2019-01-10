@@ -1,7 +1,3 @@
-[![Build Status](https://travis-ci.org/hex-firebone/YouTube-Downloader.svg?branch=master)](https://travis-ci.org/hex-firebone/YouTube-Downloader)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a970dc85ec7f781e0797/maintainability)](https://codeclimate.com/github/madcode-git/YouTube-Downloader/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/a970dc85ec7f781e0797/test_coverage)](https://codeclimate.com/github/madcode-git/YouTube-Downloader/test_coverage)
-
 # YouTube Downloader
 
 This project was inspired by a very popular [youtube-dl](https://github.com/rg3/youtube-dl) python package:
@@ -15,7 +11,7 @@ This script does not depend on anything other than cURL. No Javascript interpret
 #### Recommended way of installing this is via [Composer](http://getcomposer.org/):
 
 ```
-composer require madcodez/youtube-downloader
+composer require sormagec/youtube-downloader
 ```
 
 ## Usage
