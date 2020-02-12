@@ -10,7 +10,7 @@ class YTDownloader {
 
 	// Full Video
 
-    18 => "MP4[640x360]",
+	18 => "MP4[640x360]",
 
 	22 => "HD MP4[1280x720]",
 
@@ -119,7 +119,7 @@ class YTDownloader {
 
 	function __construct(){
 
-		$this->cache_dir = dirname(__FILE__).'/.cache';
+		$this->cache_dir = sys_get_temp_dir().DIRECTORY_SEPARATOR.'.ytcache';
 
 		$this->cookie_dir = sys_get_temp_dir();
 
